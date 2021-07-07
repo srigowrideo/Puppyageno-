@@ -1,0 +1,25 @@
+ 
+Public class Puppy{
+Int puppyAge;
+Public Puppy(String name){
+//This constructor has one parameter,name.
+System.out.println(“Name chosen is :”+ name);
+}
+Public void setAge(?int age){
+puppyAge=age;
+}
+Public int getAge(){
+Syatem.out.println(“Puppy’s age is:”+puppyAge);
+Return puppyAge;
+}
+Public static void main(Sting[]args){
+/*Object creation*?/
+Puppy myPuppy=new Puppy(?”tommy”);
+/*Call class method to set puppy’s age*/
+myPuppy.SetAge(2);
+/*Call another class method to get puppy’s age*/
+myPuppy.getAge();
+/*You can access instance variable as follows as well*/
+System.out.println(“Variable Value:”+myPuppy.puppyAge);
+}
+}
